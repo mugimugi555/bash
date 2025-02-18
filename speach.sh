@@ -35,8 +35,8 @@ curl -s -G --output "$TMP_FILE" "https://translate.google.com/translate_tts" \
 # 「ちょっと遅い（落ち着いた感じ）」の音声を作成（ログ非表示）
 # ==========================
 FILE_NAME="slow"
-PITCH="1.0"
-SPEED="0.8"
+PITCH="0.9"
+SPEED="0.80"
 DESCRIPTION="ちょっと遅い（落ち着いた感じ）"
 
 OUTPUT_FILE="$OUT_DIR/${FILE_NAME}.mp3"
